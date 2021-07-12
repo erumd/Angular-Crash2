@@ -1,10 +1,11 @@
 # AngularCrash2
 
+![Screenshot](./src/assets/screenshot.png)
 ## Description
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1. This app was built using Design Course Angular Crash course (https://youtu.be/_TLhUCjY9iA). 
 
 
-![Screenshot](./src/assets/screenshot.png)
+
 
 ## Development server
 
