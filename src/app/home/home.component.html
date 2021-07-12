@@ -27,17 +27,18 @@
     }"> -->
     
     <!-- Option 3 Class BINDING -->
-    <!-- <div class="play-container" [class.active]="clickCounter > 4"></div> -->
-    <div class="play-container" [ngClass]="setClasses()">
+    <div class="play-container" [class.active]="clickCounter > 4">
+        <div class="play-container" [ngClass]="setClasses()">
+          <strong>Ng-Template Use Example:</strong>
 
 
-    <ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
-        <p>The click counter <strong>IS GREATER</strong> than 4.</p>
-    </ng-template>
+            <ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+                <p>The click counter <strong>IS GREATER</strong> than 4.</p>
+            </ng-template>
 
-    <ng-template #none>
-        <strong>Ng-Template Use Example:</strong>
-        <p>The click counter is <strong>not greater</strong> than 4.</p>
-    </ng-template>
+            <ng-template #none>
+                <p>The click counter is <strong>NOT greater</strong> than 4.</p>
+            </ng-template>
 
-</div>
+        </div>
+  </div>
